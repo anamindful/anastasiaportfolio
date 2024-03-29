@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anastasia Web Dev </title>
+    <title>Anastasia Web Dev</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -58,44 +58,52 @@
 </head>
 
 <body>
-    <header>
-        <h1>Anastasia C.</h1>
-        <p>Web Developer</p>
-    </header>
+<header>
+    <h1>Anastasia C.</h1>
+    <p>Web Developer</p>
+</header>
 
-    <section>
-        <h2>Welcome to my portfolio!</h2>
-        <p>
-            I am a web developer with 10+ years of experience
-            providing high-quality customer service and fostering a team-oriented
-            workplace culture. Knowledgeable in Java and Javascript.
-            Seeking a professional opportunity to use interpersonal and technical
-            skills in an environment that fosters continuous learning and problem-solving.
-        </p>
-    </section>
+<section>
+    <h2>Welcome to my portfolio!</h2>
+    <p>
+        I am a web developer with 10+ years of experience
+        providing high-quality customer service and fostering a team-oriented
+        workplace culture. Knowledgeable in Java and Javascript.
+        Seeking a professional opportunity to use interpersonal and technical
+        skills in an environment that fosters continuous learning and problem-solving.
+    </p>
+</section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML/CSS, JavaScript, Java, React.js, MySQL </li>
-            <!-- Add more skills as needed -->
-        </ul>
-    </section>
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML/CSS, JavaScript, Java, React.js, MySQL</li>
+        <!-- Add more skills as needed -->
+    </ul>
+</section>
 
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><img src="/templates/travelup.png" alt="Project 1"></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-            <!-- Add more projects as needed -->
-        </ul>
-    </section>
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li><img src="/templates/travelup.png" alt="Project 1"></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+        <!-- Add more projects as needed -->
+    </ul>
+</section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Feel free to contact me via email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-    </section>
+<section>
+    <h2>Contact</h2>
+    <form method="post" action="send_email.php">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
 </body>
 
 </html>
