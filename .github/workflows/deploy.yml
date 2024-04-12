@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.5.0
 
       - name: Deploy to Hostinger
         uses: appleboy/ssh-action@v1.0.0
